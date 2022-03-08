@@ -100,7 +100,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ***** Thumbs
 
 #+NAME: thumbs
-| U_NP  | U_NP  | ESC   | SPC   | TAB   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
+| U_NP  | U_NP  | ESC   | TAB   | SPC   | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
 
 
 **** Hold
@@ -109,7 +109,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | RESET  |        |        |        |        |        |        |        |        | RESET  |
 | LGUI   | LALT   | LCTL   | LSFT   |        |        | LSFT   | LCTL   | LALT   | LGUI   |
 | BUTTON | ALGR   |        |        |        |        |        |        | ALGR   | BUTTON |
-| U_NP   | U_NP   | MEDIA  | NAV    | MOUSE  | SYM    | NUM    | FUN    | U_NP   | U_NP   |
+| U_NP   | U_NP   | MEDIA  | MOUSE  | NAV    | SYM    | NUM    | FUN    | U_NP   | U_NP   |
 
 
 *** Nav
@@ -492,7 +492,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 **** layers
 
 #+NAME: layers
-| BASE | BUTTON | NAV | MOUSE | MEDIA | NUM | SYM | FUN |
+| BASE | BUTTON | NAV | MOUSE | MEDIA | NUM | SYM | FUN | QWERTY |
 
 
 **** symbol-names
@@ -764,7 +764,7 @@ results
 : KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              KC_QUOT,           \
 : LGUI_T(KC_A),      LALT_T(KC_R),      LCTL_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              LSFT_T(KC_N),      LCTL_T(KC_E),      LALT_T(KC_I),      LGUI_T(KC_O),      \
 : LT(BUTTON, KC_Z),  ALGR_T(KC_X),      KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           ALGR_T(KC_DOT),    LT(BUTTON, KC_SLSH), \
-: U_NP,              U_NP,              LT(MEDIA, KC_ESC), LT(NAV, KC_SPC),   LT(MOUSE, KC_TAB), LT(SYM, KC_ENT),   LT(NUM, KC_BSPC),  LT(FUN, KC_DEL),   U_NP,              U_NP
+: U_NP,              U_NP,              LT(MEDIA, KC_ESC), LT(MOUSE, KC_TAB), LT(NAV, KC_SPC),   LT(SYM, KC_ENT),   LT(NUM, KC_BSPC),  LT(FUN, KC_DEL),   U_NP,              U_NP
 
 
 
@@ -1042,7 +1042,7 @@ return results
 #+END_SRC
 
 #+RESULTS: layer-names-list
-: BASE, BUTTON, NAV, MOUSE, MEDIA, NUM, SYM, FUN
+: BASE, QWERTY, BUTTON, NAV, MOUSE, MEDIA, NUM, SYM, FUN
 
 
 
@@ -1081,7 +1081,7 @@ return results
 : #define NUM    5
 : #define SYM    6
 : #define FUN    7
-
+: #define QWERTY 8
 
 
 
