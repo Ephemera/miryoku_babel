@@ -87,7 +87,7 @@ U_NP,              U_NP,              &lt MEDIA ESC,     &lt NAV SPC,       &lt 
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &hm LGUI A,        &hm LALT R,        &hm LCTRL S,       &hm LSHFT T,       &kp G,             &kp M,             &hm LSHFT N,       &hm LCTRL E,       &hm LALT I,        &hm LGUI O,        \
 &lt BUTTON Z,      &hm RALT X,        &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &hm RALT DOT,      &lt BUTTON SLASH,  \
-U_NP,              U_NP,              &lt MEDIA ESC,     &lt NAV SPC,       &lt MOUSE TAB,     &lt SYM RET,       &lt NUM BSPC,      &lt FUN DEL,       U_NP,              U_NP
+U_NP,              U_NP,              &lt MEDIA ESC,     &lt MOUSE TAB,     &lt NAV SPC,       &lt SYM RET,       &lt NUM BSPC,      &lt FUN DEL,       U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
@@ -117,7 +117,7 @@ U_NP,              U_NP,              &lt MEDIA ESC,     &lt NAV SPC,       &lt 
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SQT,      \
 &lt BUTTON Z,      &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt BUTTON SLASH,  \
-U_NP,              U_NP,              &lt MEDIA ESC,     &lt NAV SPC,       &lt MOUSE TAB,     &lt SYM RET,       &lt NUM BSPC,      &lt FUN DEL,       U_NP,              U_NP
+U_NP,              U_NP,              &lt MEDIA ESC,     &lt MOUSE TAB,     &lt NAV SPC,       &lt SYM RET,       &lt NUM BSPC,      &lt FUN DEL,       U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTZ \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Z,             &kp U,             &kp I,             &kp O,             &kp P,             \
