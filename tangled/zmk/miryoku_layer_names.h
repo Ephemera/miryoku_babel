@@ -10,3 +10,4 @@
 #define NUM    5
 #define SYM    6
 #define FUN    7
+#define QWERTY 8
