@@ -55,7 +55,7 @@ U_NP,              U_NP,              &lt FUN DEL,       &lt NUM BSPC,      &lt 
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY_FLIP \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SQT,      \
+&hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SEMI,     \
 &lt BUTTON Z,      &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt BUTTON SLASH,  \
 U_NP,              U_NP,              &lt FUN DEL,       &lt NUM BSPC,      &lt SYM RET,       &lt MOUSE TAB,     &lt NAV SPC,       &lt MEDIA ESC,     U_NP,              U_NP
 
@@ -115,7 +115,7 @@ U_NP,              U_NP,              &lt MEDIA ESC,     &lt MOUSE TAB,     &lt 
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SQT,      \
+&hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SEMI,     \
 &lt BUTTON Z,      &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt BUTTON SLASH,  \
 U_NP,              U_NP,              &lt MEDIA ESC,     &lt MOUSE TAB,     &lt NAV SPC,       &lt SYM RET,       &lt NUM BSPC,      &lt FUN DEL,       U_NP,              U_NP
 
