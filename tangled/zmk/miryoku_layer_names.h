@@ -3,7 +3,7 @@
 // generated -*- buffer-read-only: t -*-
 
 #define BASE   0
-#define QWERTY 1 
+#define QWERTY 1
 #define BUTTON 2
 #define NAV    3
 #define MOUSE  4

@@ -492,7 +492,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 **** layers
 
 #+NAME: layers
-| BASE | BUTTON | NAV | MOUSE | MEDIA | NUM | SYM | FUN | QWERTY |
+| BASE | QWERTY | BUTTON | NAV | MOUSE | MEDIA | NUM | SYM | FUN |
 
 
 **** symbol-names
