@@ -3,11 +3,11 @@
 // generated -*- buffer-read-only: t -*-
 
 #define BASE   0
-#define BUTTON 1
-#define NAV    2
-#define MOUSE  3
-#define MEDIA  4
-#define NUM    5
-#define SYM    6
-#define FUN    7
-#define QWERTY 8
+#define QWERTY 1 
+#define BUTTON 2
+#define NAV    3
+#define MOUSE  4
+#define MEDIA  5
+#define NUM    6
+#define SYM    7
+#define FUN    8
