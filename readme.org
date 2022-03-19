@@ -293,10 +293,10 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Mouse
 
 #+NAME: mouse-r-vi
-| U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| MS_L  | MS_D  | MS_U  | MS_R  |       |
-| WH_L  | WH_D  | WH_U  | WH_R  |       |
-| BTN1  | BTN3  | BTN2  | U_NP  | U_NP  |
+| U_RDO | U_PST | U_CPY | U_CUT | U_UND  |
+| MS_L  | MS_D  | MS_U  | MS_R  | QWERTY |
+| WH_L  | WH_D  | WH_U  | WH_R  |        |
+| BTN1  | BTN3  | BTN2  | U_NP  | U_NP   |
 
 
 ****** Media
@@ -783,6 +783,13 @@ for half_row, hold_row in zip(half_table, hold_table):
       for half in half_row:
         if half == '':
           code = 'U_NU'
+        elif half == 'QWERTY':
+          if target == 'qmk':
+            code = 'TG(QWERTY)'
+          elif target == 'zmk':
+            code = '&tog QWERTY'
+          elif target == 'kmonad':
+            code = 'U_TG(QWERTY)'
         elif shift == "true" and half in shifted_symbol_names_dict:
           code = shifted_symbol_names_dict[half]
         elif half in symbol_names_dict:
@@ -1021,7 +1028,7 @@ Keycodes that match any of these prefixes will not have ~KC_~ automatically
 prepended.
 
 #+NAME: nonkc
-| U_ | RGB_ | OUT_ | RESET | S( | C( | SCMD( | LCMD( |
+| U_ | RGB_ | OUT_ | RESET | S( | C( | SCMD( | LCMD( | TG( |
 
 
 **** license-qmk

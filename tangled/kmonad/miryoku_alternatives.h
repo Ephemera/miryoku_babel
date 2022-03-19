@@ -55,7 +55,7 @@ U_NP,              U_NP,              U_LT(del, FUN),    U_LT(bspc, NUM),   U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY_FLIP \
 q,                 w,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
-U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(;, met), \
+U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(;, met),      \
 U_LT(z, BUTTON),   U_MT(x, ralt),     c,                 v,                 b,                 n,                 m,                 U_COMM,            U_MT(., ralt),     U_LT(/, BUTTON),   \
 U_NP,              U_NP,              U_LT(del, FUN),    U_LT(bspc, NUM),   U_LT(ent, SYM),    U_LT(tab, MOUSE),  U_LT(spc, NAV),    U_LT(esc, MEDIA),  U_NP,              U_NP
 
@@ -115,7 +115,7 @@ U_NP,              U_NP,              U_LT(esc, MEDIA),  U_LT(tab, MOUSE),  U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 q,                 w,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
-U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(;, met), \
+U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(;, met),      \
 U_LT(z, BUTTON),   U_MT(x, ralt),     c,                 v,                 b,                 n,                 m,                 U_COMM,            U_MT(., ralt),     U_LT(/, BUTTON),   \
 U_NP,              U_NP,              U_LT(esc, MEDIA),  U_LT(tab, MOUSE),  U_LT(spc, NAV),    U_LT(ent, SYM),    U_LT(bspc, NUM),   U_LT(del, FUN),    U_NP,              U_NP
 
@@ -177,7 +177,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_ALTERNATIVES_MOUSE_VI \
 XX,                U_NA,              U_NA,              U_NA,              U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-met,               alt,               ctl,               sft,               U_NA,              kp4,               kp2,               kp8,               kp6,               U_NU,              \
+met,               alt,               ctl,               sft,               U_NA,              kp4,               kp2,               kp8,               kp6,               U_TG(QWERTY),      \
 U_NA,              ralt,              U_NA,              U_NA,              U_NA,              XX,                XX,                XX,                XX,                U_NU,              \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              #(kp/ kp5),        #(kp* kp5),        #(kp- kp5),        U_NP,              U_NP
 
